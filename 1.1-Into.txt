@@ -1,0 +1,9 @@
+NumPy - Numeric Python
+    Extension module for Python
+    Mostly written in C. (speed)
+    Powerful data structures (Multidimensional arrays and matrices)
+
+Scipy - Scientific Python
+    Needs NumPy
+    Useful function for:
+        Minimization, Regression, Fourier-transformation (and others)
