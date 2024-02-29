@@ -1,0 +1,4 @@
+Data Analysis With Python
+host: file:///L:/Linear_/Base-TI/bernd_klein_python_data_analysis_a4.pdf
+pg: 
+pg_total: 514
