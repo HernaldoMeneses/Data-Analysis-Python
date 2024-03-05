@@ -55,6 +55,7 @@ plt.show()
 
 from sys import getsizeof as size
 
+print("\n size list")
 lst = [24, 12, 57]
 size_of_list_object = size(lst) # only green box
 size_of_elements = len(lst) * size(lst[0]) # 24, 12, 57
@@ -67,7 +68,7 @@ print("Total size of list, including elements: ", total_list_size)
     In previosly exemplo, we made the assimption that all the integer elements of our list have the same size.
     Of course, this is not valid in general, because memory consumpion will be higher for larger integers.
 '''
-print("one more element")
+print("\n one more element")
 lst = [24, 12, 57, 42]
 size_of_list_object = size(lst) # only green box
 size_of_elements = len(lst) * size(lst[0]) # 24, 12, 57
@@ -77,14 +78,10 @@ print("Size of all the elements: ", size_of_elements)
 print("Total size of list, including elements: ", total_list_size)
 
 
-print("Empyt list")
+print("\n Empyt list")
 lst = []
 size_of_list_object = size(lst) # only green box
-size_of_elements = len(lst) * size(lst[0]) # 24, 12, 57
-total_list_size = size_of_list_object + size_of_elements
-print("Size without the size of the elements: ", size_of_list_object)
-print("Size of all the elements: ", size_of_elements)
-print("Total size of list, including elements: ", total_list_size)
+
 
 #pag. 15/514
 #file:///L:/Linear_/Base-TI/bernd_klein_python_data_analysis_a4.pdf
